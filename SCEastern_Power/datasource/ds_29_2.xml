@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tns:tickets xmlns:tns="http://www.example.org/FlightDB" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.example.org/FlightDB FlightDB.xsd ">
+  
+  <tns:airlines>
+    
+    <tns:airline>
+      <tns:flightNo>Flight1</tns:flightNo>
+      <tns:departure>A1</tns:departure>
+      <tns:destination>A2</tns:destination>
+      <tns:seats>10</tns:seats>
+      <tns:price>10</tns:price>
+      <tns:dates>
+        <tns:date>
+          <tns:year>10</tns:year>
+          <tns:month>10</tns:month>
+          <tns:day>10</tns:day>
+        </tns:date>
+      </tns:dates>
+    </tns:airline>
+    
+    <tns:airline>
+      <tns:flightNo>Flight2</tns:flightNo>
+      <tns:departure>B1</tns:departure>
+      <tns:destination>B2</tns:destination>
+      <tns:seats>20</tns:seats>
+      <tns:price>20</tns:price>
+      <tns:dates>
+        <tns:date>
+          <tns:year>20</tns:year>
+          <tns:month>20</tns:month>
+          <tns:day>20</tns:day>
+        </tns:date>
+      </tns:dates>
+    </tns:airline>
+    
+  </tns:airlines>
+  
+  
+  
+  <tns:bookings>
+  
+    <tns:booking>
+      <tns:bookingID>Booking1</tns:bookingID>
+      <tns:flightNo>Flight1</tns:flightNo>
+      <tns:seats>1</tns:seats>
+      <tns:date>
+        <tns:year>10</tns:year>
+        <tns:month>10</tns:month>
+        <tns:day>10</tns:day>
+      </tns:date>
+    </tns:booking>
+    
+    <tns:booking>
+      <tns:bookingID>Booking2</tns:bookingID>
+      <tns:flightNo>Flight2</tns:flightNo>
+      <tns:seats>2</tns:seats>
+      <tns:date>
+        <tns:year>20</tns:year>
+        <tns:month>20</tns:month>
+        <tns:day>20</tns:day>
+      </tns:date>
+    </tns:booking>
+    
+  </tns:bookings>
+  
+  
+  
+</tns:tickets>
